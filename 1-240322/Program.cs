@@ -6,8 +6,8 @@ namespace _1_240322
     {
         static void Main(string[] args)
         {
-            int VehicleQuantity = IntChecker("sayi daxil edin: ");
-            Car[] cars = new Car[VehicleQuantity];
+            int vehicleCount = IntChecker("sayi daxil edin: ");
+            Car[] cars = new Car[vehicleCount];
             for (int i = 0; i < cars.Length; i++)
             {
 
